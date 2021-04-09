@@ -1,4 +1,5 @@
 ### Reasoning
+In my encoding function, I use a min-heap to track which nodes have the lowest count value -- this is important since we always want to grab the two nodes with the lowest value when we're building the huffman tree.
 
 ### Efficiency
 #### Time: O(n)
